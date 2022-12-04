@@ -1,0 +1,140 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+section.header {
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 130px 0;
+}
+
+@media only screen and (max-width: 800px) {
+    section.header {
+        width: 85%;
+        padding: 70px 0;
+    }
+}
+
+section.header h1:first-child {
+    margin-top: 0
+}
+
+section.gallery {
+    width: 100%;
+    background-color: #F3F3F3;
+    overflow: hidden;
+}
+
+section.gallery h2:first-child {
+    margin-top: 0;
+}
+
+section.gallery div.wrapper {
+    width: 85%;
+    margin: 0 auto;
+    padding: 45px 0;
+    max-width: 1200px;
+}
+
+@media only screen and (max-width: 800px) {
+    section.gallery div.wrapper {
+        width: 85%;
+    }
+}
+
+section.gallery .gallery-item img {
+    width: 100%
+}
+
+section.gallery div.meta h3 {
+    margin: 12px 0 5px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+section.gallery div.meta p {
+    margin: 4px 0;
+    font-size: 15px;
+    color: #696969;
+    font-weight: 300;
+}
+
+h1, h2, h3 {
+    margin: 45px 0 25px 0;
+    color: #333;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+sub {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 22px;
+}
+
+div.skills div.skill {
+    background-color: black;
+    margin: 0 10px 14px 0;
+    padding: 12px 18px;
+    border-radius: 45px;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+div.links div {
+    margin: 0 10px 14px 0;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+div.links div a {
+    display: block;
+    padding: 12px 18px 12px 50px;
+    text-decoration: none;
+    border: 2px solid #a3a3a3;
+    border-radius: 45px;
+    transition: all 0.15s ease;
+}
+
+div.links div.linkedin {
+    background: white url(images/linkedin.png) no-repeat 17px 50%;
+}
+
+div.links div.github {
+    background: white url(images/github.png) no-repeat 17px 50%;
+}
+
+div.links div a:link { color: #5a5a5a; }
+div.links div a:visited { color: #5a5a5a; }
+div.links div a:hover {
+    color: #353535;
+    border-color: #686868;
+    box-shadow: #DFDFDF 0px 0px 15px;
+}
+div.links div a:active { color: #5a5a5a; }
