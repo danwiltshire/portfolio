@@ -102,6 +102,14 @@ sub {
     color: #8b949e;
 }
 
+p.subtitle {
+    font-size: 17px;
+    font-weight: 300;
+    color: #8b949e;
+    margin: 14px 0 0 0;
+    line-height: 1.6;
+}
+
 p {
     font-size: 22px;
 }
