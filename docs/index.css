@@ -114,7 +114,7 @@ div.skills div.skill {
     color: #8b949e;
     border: 1px solid #30363d;
     display: inline-block;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -139,7 +139,8 @@ div.links div.linkedin {
 }
 
 div.links div.github {
-    background: #0d1117 url(images/github.png) no-repeat 17px 50%;
+    background: #0d1117 url(images/github.svg) no-repeat 17px 50%;
+    background-size: auto 20px;
 }
 
 div.links div a:link { color: #8b949e; }
