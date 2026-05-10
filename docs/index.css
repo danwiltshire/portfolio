@@ -14,13 +14,12 @@ section.header {
     width: 60%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 130px 0;
+    padding: 50px 0;
 }
 
 @media only screen and (max-width: 800px) {
     section.header {
         width: 85%;
-        padding: 70px 0;
     }
 }
 
@@ -30,8 +29,9 @@ section.header h1:first-child {
 
 section.gallery {
     width: 100%;
-    background-color: #161b22;
+    background-color: #191f27;
     overflow: hidden;
+    padding: 40px 0 0 0;
 }
 
 section.gallery h2:first-child {
@@ -41,7 +41,7 @@ section.gallery h2:first-child {
 section.gallery div.wrapper {
     width: 85%;
     margin: 0 auto;
-    padding: 45px 0;
+    padding: 0 0 45px 0;
     max-width: 1200px;
 }
 
@@ -72,7 +72,6 @@ section.gallery div.meta h3 {
 section.gallery div.meta p {
     margin: 4px 0;
     font-size: 15px;
-    color: #8b949e;
     font-weight: 300;
 }
 
@@ -99,13 +98,13 @@ h3 {
 sub {
     font-size: 22px;
     font-weight: 400;
-    color: #8b949e;
+    color: #DDD;
 }
 
 p.subtitle {
     font-size: 15px;
     font-weight: 300;
-    color: #8b949e;
+    color: #DDD;
     margin: 14px 0 0 0;
     line-height: 1.6;
 }
@@ -119,8 +118,8 @@ div.skills div.skill {
     margin: 0 6px 8px 0;
     padding: 4px 9px;
     border-radius: 45px;
-    color: #8b949e;
-    border: 1px solid #30363d;
+    color: #BBB;
+    border: 1px solid #444;
     display: inline-block;
     font-size: 14px;
     font-weight: 400;
@@ -151,11 +150,11 @@ div.links div.github {
     background-size: auto 20px;
 }
 
-div.links div a:link { color: #8b949e; }
-div.links div a:visited { color: #8b949e; }
+div.links div a:link { color: #BBB; }
+div.links div a:visited { color: #BBB; }
 div.links div a:hover {
-    color: #c9d1d9;
+    color: #CCC;
     border-color: #58a6ff;
     box-shadow: #1f6feb33 0px 0px 15px;
 }
-div.links div a:active { color: #8b949e; }
+div.links div a:active { color: #BBB; }
