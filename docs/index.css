@@ -1,3 +1,15 @@
+:root {
+    --color-bg-primary: #2e3440;
+    --color-bg-secondary: #3b4252;
+    --color-bg-tertiary: #434c5e;
+    --color-border: #4c566a;
+    --color-text-primary: #d8dee9;
+    --color-text-bright: #eceff4;
+    --color-text-muted: #8c9cb6;
+    --color-accent: #88c0d0;
+    --color-accent-glow: #88c0d033;
+}
+
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -6,15 +18,15 @@
 body {
     font-family: 'Helvetica Neue', 'Roboto', sans-serif;
     margin: 0;
-    background-color: #0d1117;
-    color: #c9d1d9;
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
 }
 
 section.header {
     width: 60%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 @media only screen and (max-width: 800px) {
@@ -29,8 +41,7 @@ section.header h1:first-child {
 
 section.gallery {
     width: 100%;
-    background-color: #191f27;
-    overflow: hidden;
+    background-color: var(--color-bg-secondary);
     padding: 40px 0 0 0;
 }
 
@@ -77,34 +88,35 @@ section.gallery div.meta p {
 
 h1, h2, h3 {
     margin: 45px 0 25px 0;
-    color: #f0f6fc;
+    color: var(--color-accent);
 }
 
 h1 {
     font-weight: 500;
     font-size: 40px;
+    margin-bottom: 12px;
 }
 
 h2 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 30px;
 }
 
 h3 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 24px;
 }
 
 sub {
     font-size: 22px;
     font-weight: 400;
-    color: #DDD;
+    color: var(--color-text-muted);
 }
 
 p.subtitle {
     font-size: 15px;
-    font-weight: 300;
-    color: #DDD;
+    font-weight: 400;
+    color: var(--color-text-muted);
     margin: 14px 0 0 0;
     line-height: 1.6;
 }
@@ -114,12 +126,12 @@ p {
 }
 
 div.skills div.skill {
-    background-color: #161b22;
+    background-color: var(--color-bg-secondary);
     margin: 0 6px 8px 0;
     padding: 4px 9px;
     border-radius: 45px;
-    color: #BBB;
-    border: 1px solid #444;
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border);
     display: inline-block;
     font-size: 14px;
     font-weight: 400;
@@ -136,25 +148,25 @@ div.links div a {
     display: block;
     padding: 12px 18px 12px 50px;
     text-decoration: none;
-    border: 2px solid #30363d;
+    border: 2px solid var(--color-border);
     border-radius: 45px;
     transition: all 0.15s ease;
 }
 
 div.links div.linkedin {
-    background: #0d1117 url(images/linkedin.png) no-repeat 17px 50%;
+    background: var(--color-bg-primary) url(images/linkedin.png) no-repeat 17px 50%;
 }
 
 div.links div.github {
-    background: #0d1117 url(images/github.svg) no-repeat 17px 50%;
+    background: var(--color-bg-primary) url(images/github.svg) no-repeat 17px 50%;
     background-size: auto 20px;
 }
 
-div.links div a:link { color: #BBB; }
-div.links div a:visited { color: #BBB; }
+div.links div a:link { color: var(--color-text-primary); }
+div.links div a:visited { color: var(--color-text-primary); }
 div.links div a:hover {
-    color: #CCC;
-    border-color: #58a6ff;
-    box-shadow: #1f6feb33 0px 0px 15px;
+    color: var(--color-text-bright);
+    border-color: var(--color-accent);
+    box-shadow: var(--color-accent-glow) 0px 0px 15px;
 }
-div.links div a:active { color: #BBB; }
+div.links div a:active { color: var(--color-text-primary); }
